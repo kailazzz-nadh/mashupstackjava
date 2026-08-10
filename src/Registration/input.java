@@ -10,7 +10,9 @@ public class input {
     	
     	String name=input.nextLine();
     	return name;
+  
 	 }
+
    public int methodtwo() {
     	int age=input.nextInt();
     	return age;

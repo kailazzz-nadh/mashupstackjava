@@ -1,9 +1,14 @@
 package javacode;
-
+import profile.userinput;
+import greeting.greetingdisplay;
 public class day3hw {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		userinput a=new userinput();
+		String name=a.inputone();
+		greetingdisplay b=new greetingdisplay();
+	   System.out.println(b.greetingone() + name);
+		
 
 	}
 
