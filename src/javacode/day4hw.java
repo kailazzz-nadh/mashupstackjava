@@ -26,7 +26,7 @@ public class day4hw {
 		}
 		
 		
-		
+		input.close();
 		
 
 	}

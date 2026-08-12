@@ -17,6 +17,7 @@ public class day4cw {
 		else {
 			System.out.println("Access Denied");
 		}
+		input.close();
 		
 
 	}
