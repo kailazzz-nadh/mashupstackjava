@@ -1,11 +1,16 @@
 package javacode;
 
 public class day8cw {
+	
+	
 	interface animals{
 		void makesound();
 		void move();
 	}
+	
+	
 	class bird implements animals{
+		
 		public void makesound() {
 			System.out.println("Chirp");
 		}
@@ -13,13 +18,16 @@ public class day8cw {
 			System.out.println("Fly");
 		}
 	}
+	
 	class dog implements animals{
+		
 		public void makesound() {
 			System.out.println("bark");
 		}
 		public void move() {
 			System.out.println("run");
 		}
+		
 	}
 	
 	public class zoo{
@@ -37,4 +45,6 @@ public class day8cw {
 	}
 
 }
+	
+	
 }
