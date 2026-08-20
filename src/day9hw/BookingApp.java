@@ -14,17 +14,17 @@ public class BookingApp {
 		if(rider.equals("auto")) {
 			Ride auto=new AutoRide();
 			auto.rideType();
-			System.out.println("Your tota fare is"+auto.calculateFare(price));
+			System.out.println("Your total fare is"+" "+auto.calculateFare(price));
 			
 		}
 		else {
 			Ride car=new CarRide ();
 			car.rideType();
-			System.out.println("Your tota1 fare is"+car.calculateFare(price));
+			System.out.println("Your tota1 fare is"+" "+car.calculateFare(price));
 			
 		}
 		
-
+   input. close();
 	}
 
 }
