@@ -21,10 +21,11 @@ Write.close();
 FileReader input = new FileReader("assignment.txt");
 
 char[] array = new char[100];
-int count = input.read(array);
+ input.read(array);
 
 System.out.println("Data in the file:");
 System.out.println(array);
+
 
 input.close();
 	       

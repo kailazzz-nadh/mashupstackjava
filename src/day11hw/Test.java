@@ -12,7 +12,7 @@ public class Test {
 		
 		System.out.println("Course is:"+c2.name+" "+"duration:"+c2.duration+"students enrolled:"+c2.enrolled);
 		Course.Platform platform2= new Course.Platform();
-		platform1.out();
+		platform2.out();
 		
 		
 

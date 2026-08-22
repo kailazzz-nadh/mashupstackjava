@@ -40,7 +40,7 @@ public class day7hw {
 			 System.out.println("Invalid input! Please enter a number.");
 		}
 			
-
+input.close();
 		}
 
 	}
